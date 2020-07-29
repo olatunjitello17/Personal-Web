@@ -1,3 +1,6 @@
+/* background: #E5E5E5 */
+
+
 h1 {
   position: absolute;
   width: 1103px;
@@ -5,7 +8,7 @@ h1 {
   left: 168px;
   top: 189px;
 
-  font-family: Roboto;
+font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -21,12 +24,12 @@ h2 {
 
 
 position: absolute;
-width: 267px;
+width: 250px;
 height: 45px;
 left: 168px;
 top: 286px;
 
-font-family: Source Sans Pro;
+font-family:'Source Sans Pro', sans-serif;
 font-style: italic;
 font-weight: normal;
 font-size: 36px;
@@ -38,12 +41,12 @@ color: #FCA600;
 
 h3 {
   position: absolute;
-width: 361px;
+width: 350px;
 height: 30px;
 left: 168px;
 top: 353px;
 
-font-family: Source Sans Pro;
+font-family: 'Source Sans Pro', sans-serif;
 font-style: italic;
 font-weight: normal;
 font-size: 24px;
@@ -52,7 +55,26 @@ line-height: 30px;
 color: #FCA600;
 
 }
-a {
+
+/* Linkedin | Twitter | Github | Mail */
+
+h4 {
+position: absolute;
+width: 500px;
+height: 40px;
+left: 550px;
+top: 620px;
+
+font-family: 'Lato'
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 43px;
+
+color: #FCA600;
+}
+
+/* a {
   color:
   text-decoration: none;
 }
@@ -64,7 +86,7 @@ a:link {
 a:hover {
   color: gold;
   text-decoration: none;
-}
+} */
          /* For small screens */
          @media only screen and (max-width : 768px) {
              div {
